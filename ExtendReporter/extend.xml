@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Listeners">
+
+<listeners>
+<listener class-name="mainfunctions.TestNGListeners"></listener>
+<listener class-name="mainfunctions.annotaiontransform"></listener>
+</listeners>
+
+<test name="Chrome Browser">
+<classes>
+<class name="TestLocation.GoogleTest"></class>
+</classes>
+</test>
+
+</suite>
